@@ -1,10 +1,11 @@
 import React from "react";
-import Parent from "./practice/reactMemo/Parent";
-
+import MainApp from "./practice/contextApi/MainApp";
+import MainAppReduxApi from "./practice/reduxApi/MainAppReduxApi";
 function App() {
   return (
     <div>
-      <Parent />
+      <h1>React interview Prep</h1>
+      <MainAppReduxApi/>
     </div>
   );
 }
